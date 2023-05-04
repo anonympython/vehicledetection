@@ -1,0 +1,49 @@
+.body {
+  background-color: #3a1078;
+}
+.div1 {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  padding-left: 100px;
+  padding-top: 100px;
+  background-color: white;
+  width: 1000px;
+  height: 550px;
+  border-radius: 30px;
+}
+
+.elm {
+  padding: 5px;
+}
+
+.h1 {
+  color: #3c486b;
+  font-size: 35px;
+}
+
+.p {
+  color: #3c486b;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #3c486b;
+  border: 0px;
+  height: 50px;
+  width: 300px;
+}
+
+.img1 {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  margin-top: -300px;
+  border-radius: 30px;
+  margin-left: 800px;
+}
+
+.dnrnd {
+  border-radius: 10px;
+}

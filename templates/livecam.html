@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Live Webcam Feed</title>
+  </head>
+  <body>
+    <h1>Live Webcam Feed</h1>
+    <img id="video_feed" src="{{ url_for('livecam') }}" width="20%" />
+    <p id="processed_data"></p>
+  </body>
+  <script>
+    // Create a WebSocket connection to the server
+    var socket = new WebSocket(
+      "ws://" + window.location.hostname + ":{{ PORT }}/ws"
+    );
+
+    // When the connection is established, start receiving data
+    socket.onopen = function (event) {
+      console.log("WebSocket connected.");
+    };
+
+    // When the connection is closed, log the event
+    socket.onclose = function (event) {
+      console.log("WebSocket closed with code " + event.code);
+    };
+
+    // When a message is received, update the processed data
+    socket.onmessage = function (event) {
+      var processed_data = event.data;
+      document.getElementById("processed_data").innerHTML = processed_data;
+    };
+  </script>
+</html>

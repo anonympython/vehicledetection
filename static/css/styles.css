@@ -1,0 +1,99 @@
+.bg {
+  background-image: url("https://media.istockphoto.com/id/855390386/photo/highway-elevated-view.jpg?b=1&s=170667a&w=0&k=20&c=8DpkfSj_SMNIjZR4ObwhWLb3ShNDGRCSrv-RclD0PM8=");
+
+  height: 100%;
+  width: 100%;
+
+  background-size: cover;
+}
+
+.gov {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  margin-left: 1%;
+  display: inline-block;
+  position: fixed;
+}
+
+.navbar-nav {
+  margin-left: 50%;
+}
+
+.nigh {
+  width: 70px;
+  height: 70px;
+  margin-left: 12%;
+  margin-top: 50px;
+  display: inline-block;
+  position: fixed;
+}
+
+.iit {
+  width: 125px;
+  height: 75px;
+  margin-left: 85%;
+  margin-top: 50px;
+  display: inline;
+  position: fixed;
+}
+
+.navbar {
+  margin-top: 60px;
+  margin-left: 500px;
+  display: inline-block;
+  position: fixed;
+}
+.nav-link {
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.purpose {
+  margin-left: 50px;
+  margin-top: 500px;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 50px;
+  position: absolute;
+}
+
+.btn {
+  width: 400px;
+  height: 70px;
+  color: dark;
+  font-size: 40px;
+  margin-left: 50px;
+  margin-top: 575px;
+  font-weight: 100;
+  position: absolute;
+}
+
+.footer {
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 100;
+  padding-left: 400px;
+}
+.h3 {
+  color: white;
+  padding-left: 200px;
+}
+
+.table {
+  font-size: 15px;
+  color: aliceblue;
+
+  border-color: black;
+}
+
+.h33 {
+  color: white;
+  margin-left: 270px;
+  margin-top: 80px;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+}

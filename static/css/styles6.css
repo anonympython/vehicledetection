@@ -1,0 +1,42 @@
+.body {
+  background-color: #b2a3ce;
+}
+
+.pv {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.video {
+  width: 40%;
+  height: 50%;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+
+.btndv {
+  background-color: #3c486b;
+  border: 0px;
+  height: 50px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 150px;
+}
+
+.btngt {
+  background-color: #3c486b;
+  border: 0px;
+  height: 50px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  border-radius: 10px;
+  margin-left: 500px;
+}
+
+.btndvgt {
+  margin: 10px;
+  margin-top: 5%;
+}
